@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'rnpro' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for rnpro
+
+  target 'rnpro-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'rnproTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'rnpro-tvOS' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for rnpro-tvOS
+
+  target 'rnpro-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
